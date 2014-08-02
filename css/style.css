@@ -1,0 +1,128 @@
+.wg-container
+{
+	background: none repeat scroll 0% 0% #2d2d2d;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 1px 0;
+	color: #ccc;
+	line-height: 25.6px;
+	margin: 0 -20px;
+	overflow: auto;
+	padding: 15px 20px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+}
+.wg-container hr
+{
+	background: #333;
+	background-image: -moz-linear-gradient(to right, #333, #ccc, #333);
+	background-image: -ms-linear-gradient(to right, #333, #ccc, #333);
+	background-image: -o-linear-gradient(to right, #333, #ccc, #333);
+	background-image: -webkit-linear-gradient(to right, #333, #ccc, #333);
+	border: 0;
+	height: 5px;
+}
+.wg-item
+{
+	list-style: none;
+}
+.wg-item .inner
+{
+	height: 160px;
+}
+.wg-item li
+{
+	display: block;
+	float: left;
+	margin: 16px;
+	width: 45%;
+}
+.wg-item li .header
+{
+	border: 4px solid #b4b4b4;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	cursor: pointer;
+	float: left;
+	height: 256px;
+	margin: 5px;
+	moz-box-shadow: 1px 1px 1px 1px #ccc;
+	overflow: hidden;
+	position: relative;
+	webkit-box-shadow: 1px 1px 1px 1px #ccc;
+	width: 100%;
+}
+.wg-item li .header:hover a
+{
+	moz-transform: scale(1.2);
+	ms-transform: scale(1.2);
+	o-transform: scale(1.2);
+	transform: scale(1.2);
+	webkit-transform: scale(1.2);
+}
+.wg-item li .header a
+{
+	left: 0;
+	moz-transition: all 300ms ease-out;
+	ms-transition: all 300ms ease-out;
+	o-transition: all 300ms ease-out;
+	position: absolute;
+	transition: all 300ms ease-out;
+	webkit-transition: all 300ms ease-out;
+}
+.wg-item li .image
+{
+	background-size: cover;
+	display: block;
+	height: 95%;
+	moz-background-size: cover;
+	padding: .5em;
+	webkit-background-size: cover;
+	width: 100%;
+}
+.wg-item li h3
+{
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 22px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.wg-item li h3 a:hover
+{
+	text-decoration: none;
+}
+.wg-item li ul.links
+{
+	float: right;
+}
+.wg-item li .links li
+{
+	display: block;
+	margin-left: 5px;
+	margin-right: 0 !important;
+	width: initial;
+}
+.wg-item li .links li a
+{
+	background: #65a9d7;
+	border-radius: 5px;
+	box-shadow: 0 1px 0 #000;
+	color: #fff;
+	font-family: Georgia,Serif;
+	font-size: 16px;
+	padding: 5.5px 11px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+	vertical-align: middle;
+	webkit-border-radius: 5px;
+	webkit-box-shadow: 0 1px 0 #000;
+}
+.wg-item .description
+{
+	font-size: 16px;
+	margin: .2em 0;
+	text-align: left;
+}
