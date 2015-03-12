@@ -3,6 +3,9 @@
     margin: 0px auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif, "Times New Roman","Open Sans Light","Georgia", "Helvetica","Microsoft YaHei","WenQuanYi Micro Hei";
 	font-weight: 700;
+    height: 100%;
+    background-color: #404040;
+    overflow: scroll;
 }
 .wg-wrapper a {
     text-decoration: none;
@@ -16,18 +19,40 @@
   display: none;
 }
 .wg-nav {
-	margin: auto;
 	height: 45px;
+    background-color: #404040;
+    border-radius: 3px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #191B1E;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3) inset, 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 .wg-nav-active {
-	color: #87DAFF;
+    background-color: rgb(124, 203, 120);
+    color: #333;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    background: -moz-linear-gradient(center top , rgb(124, 203, 120) 5%, rgb(124, 203, 120) 100%) repeat scroll 0% 0% #77D42A;
 }
 .wg-nav ul {
-	display: table;
-  	margin: 0 auto;
+    background-color: #2D3035;
+    border-radius: 3px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3) inset, 0px 1px 0px rgba(255, 255, 255, 0.2);
+	width: 252px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 0;
+    list-style:none;
+    position:relative;
 }
 .wg-nav ul li {
-	margin: 0 1em;
+    padding: 0.2em 0.1em;
+    width: 120px;
+    cursor: pointer;
 }
 .wg-screenshot {
 	margin-bottom: 15px;
@@ -83,11 +108,12 @@
 .wg-desc {
     line-height: 1.6em;
     margin: 1em 0px;
-	color: rgb(68, 68, 68);
+	color: #FFF;
+    
 }
 .wg-name {
-	color: #0E83CD;
-	font-size: 20px;
+	color: #A6C7E2;
+	font-size: 24px;
 	line-height: 1;
 }
 .wg-container li {
@@ -101,7 +127,7 @@
     font-size: 28px;
 }
 .wg-list-title {
-	color: #444;
+	color: #A6C7E2;
 }
 .wg-img-effect
 {
