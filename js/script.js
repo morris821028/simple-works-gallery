@@ -24,7 +24,7 @@ $(document).ready(function() {
 			}
 			screenshot = screenshot + '<span></div>';
 			inner = '<a  href="' + item.download[0] + '" class="wg-name" target="_blank">' + item.title + '</a>';
-			inner += '<p class="wg-desc">' + item.description + '</p>';
+			inner += '<div class="wg-desc">' + item.description + '</div>';
 
 			tag = screenshot + inner;
 			tag = '<li class="wg-item">' + tag + '</li>';
